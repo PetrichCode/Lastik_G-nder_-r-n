@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.kapsayici {
+    width: 61%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-left: 5%;
+}
+.detay1{
+    background-color: #dcdcdc;
+}
+.baslik {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.baslik img {
+    width: 150px;
+}
+
+.baslik p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.baslik h1 {
+    font-size: 24px;
+    color: #000000;
+    margin: 10px 0;
+}
+
+.fiyat {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.etiketler {
+    display: flex;
+    gap: 8px;
+    vertical-align: top;
+    
+}
+
+.firsat-urunu, .hizli-kargo, .ucretsiz-kargo, .ucretsiz-montaj {
+    background-color: #fecba9;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.hizli-kargo {
+    background-color: #b4d8ff;
+    color: rgb(0, 0,0);
+}
+
+.ucretsiz-kargo {
+    background-color: #d5ffdf;
+    color: rgb(0,0,0);
+}
+
+.ucretsiz-montaj {
+    background-color: #d9c4ff;
+    color: rgb(0,0,0);
+}
+
+.en-dusuk-fiyat {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.fiyat-degeri {
+    font-size: 24px;
+    color: #e67700;
+    font-weight: bold;
+}
+
+.eski-fiyat {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.urun-detaylari {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.detay-baslik {
+    display: inline-block;
+    width: 150px;
+}
+
+.detay-deger {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.ureticikodu {
+    font-size: 14px;
+    color: #666;
+    align-self: flex-start;
+    margin-top: 20px;
+    text-align: right;
+    flex-shrink: 0;
+}
